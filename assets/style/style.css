@@ -74,6 +74,12 @@ body.dark-mode {
   color: var(--primaryIconColorHover);
 }
 
+/* .line-1.dark-mode,
+.line-2.dark-mode,
+.line-3.dark-mode {
+  color: white;
+} */
+
 * {
   margin: 0;
   padding: 0;
@@ -220,6 +226,10 @@ nav ul li a:hover {
   margin: 7px;
   transition: all 0.3s;
   z-index: 99;
+}
+
+.burger.dark-mode div {
+  background-color: #fff;
 }
 
 .burger {
