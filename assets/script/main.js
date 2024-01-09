@@ -42,10 +42,10 @@ function toggleTheme() {
   burger.classList.toggle("dark-mode");
 
   if (body.classList.contains("dark-mode")) {
-    profileImg.src = "./assets/images/profile2.png";
+    profileImg.src = "./assets/images/profile4.png";
     icon.innerHTML = "&#9728;";
   } else {
-    profileImg.src = "./assets/images/profile1.png";
+    profileImg.src = "./assets/images/profile3.png";
     icon.innerHTML = "&#9790;";
   }
 }
